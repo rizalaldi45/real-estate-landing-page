@@ -25,7 +25,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className='md:hidden py-8 cursor-pointer'>
-                <img src={HamburgerIcon} width="27" height='32' />
+                <img src={HamburgerIcon} width="27" height='32' alt='' />
             </div>
         </div>
     )
