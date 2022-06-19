@@ -7,7 +7,7 @@ const Header = () => {
         <div className="h-full flex pb-40">
             <div className="w-full lg:w-6/12 flex-col text-left h-auto justify-start items-start mt-40">
                 <h5 className="mb-6">Welcome to Estate Agency</h5>
-                <h1 className="text-7xl font-black leading-tight">
+                <h1 className="text-7xl font-black leading-tight break-all md:break-normal">
                     <Typed
                         strings={['Discover a place you will love to live. &nbsp;']}
                         typeSpeed={60}

@@ -7,23 +7,27 @@ import { ArrowIcon } from '../images/svgImages'
 const Flow = () => {
     return (
         <div className="w-full h-auto pb-20">
-            <h1 className="font-bold text-2xl">
-                How its works ?
-            </h1>
-            <p className="text-sm text-gray-400 mt-3">
-                Everything you need to know when you're looking to buy,<br/> rent, or sell - all in one place.
-            </p>
+            <div className='text-center'>
+                <h1 className="font-bold text-2xl">
+                    How its works ?
+                </h1>
+                <p className="text-sm text-gray-400 mt-3">
+                    Everything you need to know when you're looking to buy,<br/> rent, or sell - all in one place.
+                </p>
+            </div>
             <div className="mt-20 flex justify-around">
                 <div className='text-center'>
                     <img className='mx-auto' src={BuyIcon} width={50} height={55} alt='' />
                     <h4 className='text-xl font-bold mt-5 mb-2'>
                         Buyer Guides
                     </h4>
-                    <div className='flex items-center'>
-                        <h6 className='text-md text-cyan-500 font-bold mr-3'>
+                    <div className='flex-col md:flex items-center'>
+                        <h6 className='text-md text-cyan-500 font-bold xs:mr-0 md:mr-3'>
                             How to buy
                         </h6>
-                        <ArrowIcon />
+                        <div className='w-full flex justify-center mt-2'>
+                            <ArrowIcon />
+                        </div>
                     </div>
                 </div>
                 <div className='text-center'>
@@ -31,11 +35,13 @@ const Flow = () => {
                     <h4 className='text-xl font-bold mt-5 mb-2'>
                         Renter Guides
                     </h4>
-                    <div className='flex items-center'>
+                    <div className='flex-col md:flex items-center'>
                         <h6 className='text-md text-cyan-500 font-bold mr-3'>
                             How to rent
                         </h6>
-                        <ArrowIcon />
+                        <div className='w-full flex justify-center mt-2'>
+                            <ArrowIcon />
+                        </div>
                     </div>
                 </div>
                 <div className='text-center'>
@@ -43,11 +49,13 @@ const Flow = () => {
                     <h4 className='text-xl font-bold mt-5 mb-2'>
                         Seller Guides
                     </h4>
-                    <div className='flex items-center'>
+                    <div className='flex-col md:flex items-center'>
                         <h6 className='text-md text-cyan-500 font-bold mr-3'>
                             How to sell
                         </h6>
-                        <ArrowIcon />
+                        <div className='w-full flex justify-center mt-2'>
+                            <ArrowIcon />
+                        </div>
                     </div>
                 </div>
             </div>

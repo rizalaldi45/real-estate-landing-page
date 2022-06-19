@@ -28,7 +28,7 @@ const Footer = () => {
                 <div className="mt-5 md:mt-0">
                     <h4 className="text-md font-bold text-soft-grape">Get in touch</h4>
                     <h6 className="text-gray-400 text-md my-3">You’ll find your next home, in any style you prefer.</h6>
-                    <div className='w-full h-autoo flex'>
+                    <div className='w-full h-autoo flex flex-wrap gap-4'>
                         <div className='cursor-pointer'>
                             <TwitterIcon />
                         </div>
@@ -41,9 +41,9 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex justify-between items-center pb-10">
+            <div className="xs:flex-col md:flex justify-between items-center pb-10">
                 <h1 className="font-bold text-2xl">Estate.</h1>
-                <h6 className="text-sm text-gray-400">Copyright 2022 by Estate, All rights reserved.</h6>
+                <h6 className="text-sm text-gray-400 xs:mt-2 md:mt-0">Copyright 2022 by Estate, All rights reserved.</h6>
             </div>
         </div>
     )
