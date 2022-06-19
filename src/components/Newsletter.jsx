@@ -2,7 +2,7 @@ import NewsletterImage from '../images/newsletter.png'
 
 const Newsletter = () => {
     return (
-        <div className="w-full h-auto mt-20 mb-0 md:mb-32 xs:flex-col md:flex">
+        <div className="w-full h-auto mt-20 mb-0 md:mb-20 xs:flex-col md:flex">
             <div className='w-full h-auto bg-cover bg-no-repeat mx-auto'>
                 <img className='bg-center' src={NewsletterImage} alt='' />
             </div>

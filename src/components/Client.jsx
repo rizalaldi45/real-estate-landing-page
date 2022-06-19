@@ -12,7 +12,7 @@ const Client = () => {
                 <div className="w-full text-left">
                     <h1 className="font-bold text-2xl pb-3">Estate.</h1>
                     <h5 className="font-normal text-sm">
-                        More than 45,000+ companies trust besnik
+                        More than 45,000+ companies trust Estate
                     </h5>
                 </div>
                 <div className="w-full flex flex-col text-left md:text-right">
